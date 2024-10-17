@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: antiquewhite;
+    font-size: 20px;
+    margin: auto;
+}
+
+main {
+    margin: 30px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #000000;
+    text-decoration: underline;
+    font-family: "Rozha One", serif;
+}
+
+nav ul li a:hover {
+    color: #dd7e7e;
+    cursor: pointer;
+
+}
+
+header {
+    text-align: center;
+    background-color: #bb2222;
+    padding: 10px 0;
+    color: #f08c8c;
+    margin: 0;
+
+}
+
+header h1 {
+    text-align: center;
+    font-size: 40px;
+    margin: 0px;
+    padding: 5px;
+    font-family: "Rozha One", serif;
+    text-shadow: 3px 4px 3px black;
+}
+
+.intro {
+    padding: 5px;
+    text-align: center;
+    font-size: 19px;
+    color: #800202;
+    /* margin-left: px; */
+    margin-right: 20px;
+    margin-top: 2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 70%;
+}
+
+.p {
+    display: flex;
+    justify-content: center;
+}
+
+.opiniao {
+    padding: 30px;
+    text-align: center;
+    font-size: 19px;
+    color: #000000;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 2px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+h2 {
+    text-align: center;
+    font-family: "DM Serif Display", serif;
+    font-size: 35px;
+    margin-top:0;
+    margin-bottom: 0px;
+    color: #410404; 
+}
+
+
+table,
+th,
+td {
+    border: 3px solid red;
+    padding: 10px;
+    text-align: left;
+    font-size: 20px;
+    
+
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 2px;
+    margin-left: 2px;
+    
+
+}
+
+mark {
+    background-color: #dd7e7ea1;
+    color: #410404;
+    border-radius: 12px;
+    padding: 4px;
+
+}
+
+#problems {
+    padding-top: 20px;
+}
+
+img {
+    width: 300px;
+    padding-top: 10px;
+    border-radius: 30px;
+}
+
+.img {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+    padding: 5px;
+}
+
+form label {
+    margin-top: 10px;
+
+}
+
+form input,
+form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 2px solid red;
+    border-radius: 10px;
+}
+
+form button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #bb2222;
+    color: #f08c8c;
+    cursor: pointer;
+    box-shadow: 4px 5px 5px black;
+    border-radius: 10px;
+
+}
+
+form button:hover {
+    background-color: #861313;
+}
+
+#tabela h2 {
+    padding-top: 25px;
+}
+
+.container {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+}
+
+.fisico {
+    align-items: center;
+    display: flex;
+}
+
+footer {
+    font-size: 15px;
+    background-color: #dd7e7e;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+}
+
+.footer {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+@media (max-width:1080px) {
+    .intro {
+        font-size: 19px;
+        margin: auto;
+        padding: 5px;
+        flex-wrap: wrap;
+        line-height: 1.2rem;
+
+    }
+
+}
+
+#feedback h2 {
+    padding-top: 20px;
+}
+
+.fontes {
+    font-size: 10px;
+    padding-bottom: 0;
+    align-items: flex-end;
+    display: flex;
+    justify-content: center;
+    color: #00000065;
+
+}
